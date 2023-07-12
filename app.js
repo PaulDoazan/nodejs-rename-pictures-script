@@ -9,7 +9,6 @@ const folderPath = "./assets";
 // read all files in the directory
 let filesArr = fs.readdirSync(folderPath);
 
-
 // Loop through array and rename all files 
 
 filesArr.forEach((file, index) => {
